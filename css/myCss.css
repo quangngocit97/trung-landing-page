@@ -48,3 +48,48 @@
 .photo_slider {
     margin-bottom: 30px;
 }
+
+#intro {
+    padding-bottom: 0;
+}
+
+#weare {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#weare h2 {
+    color: #f2545f;
+    font-size: xxx-large;
+}
+
+#weare p {
+    font-size: x-large;
+    color: #f2545f;
+}
+
+#ourProduct {
+    padding-top: 30px;
+}
+
+@media (max-width: 980px) {
+    #weare h2 {
+        color: #f2545f;
+        font-size: xx-large;
+    }
+
+    #weare p {
+        font-size: large;
+        color: #f2545f;
+    }
+}
+
+.uniform-image-wrapper {
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.uniform-image-wrapper:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
